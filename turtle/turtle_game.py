@@ -4,7 +4,7 @@ import random
 die = [1, 2, 3, 4, 5, 6]
 
 speed('fastest')
-
+hideturtle()
 player_one = Turtle()
 player_one.color("blue")
 player_one.shape("turtle")
