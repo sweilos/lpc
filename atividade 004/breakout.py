@@ -1,7 +1,7 @@
 from random import randint
 from time import sleep
-
 from modules import collisions, sounds, utils, objects
+
 ball_initial_position_x = 0
 ball_initial_position_y = -220
 playing = True
