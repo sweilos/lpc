@@ -15,7 +15,6 @@ WHITE = (255, 255, 255)
 GREY = (212, 210, 212)
 BLACK = (0, 0, 0)
 BLUE = (0, 97, 148)
-
 RED = (162, 8, 0)
 ORANGE = (183, 119, 0)
 GREEN = (0, 127, 33)
@@ -25,7 +24,7 @@ score = 0
 balls = 1
 velocity = 4
 
-paddle_width = 54
+paddle_width = WIDTH
 paddle_height = 20
 
 all_sprites_list = pygame.sprite.Group()
@@ -155,7 +154,7 @@ def bricks():
                     all_bricks.add(brick)
 
 
-brick_wall = bricks()
+bricks()
 
 all_sprites_list.add(paddle)
 all_sprites_list.add(ball)
